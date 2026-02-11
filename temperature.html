@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Temperature Converter</h1>
+    <nav>
+        <a href="index.html">Profile</a>
+        <a href="mark-to-grade.html">Mark Converter</a>
+        <a href="staff.html">Staff</a>
+        <a href="temperature.html">Temperature</a>
+    </nav>
+</header>
+
+<section class="content">
+
+    <input type="number" id="temperatureInput">
+    
+    <select id="temperatureType" onchange="convertTemperature()">
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+        <option value="K">Kelvin</option>
+    </select>
+
+    <p id="tempResult"></p>
+
+</section>
+
+<footer>
+    <p>© Ray Pouk <span id="currentDate"></span></p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

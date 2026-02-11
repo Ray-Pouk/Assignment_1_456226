@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mark To Grade</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Mark to Grade Converter</h1>
+    <nav>
+        <a href="index.html">Profile</a>
+        <a href="mark-to-grade.html">Mark Converter</a>
+        <a href="staff.html">Staff</a>
+        <a href="temperature.html">Temperature</a>
+    </nav>
+</header>
+
+<section class="content">
+    <h2>Enter Student Mark</h2>
+
+    <input type="text" id="mark-input-box" placeholder="Enter mark (0-100)">
+    <button onclick="markToGrade()">Convert</button>
+
+    <p id="validationmessage"></p>
+    <p id="gradeResult"></p>
+</section>
+
+<footer>
+    <p>© Ray Pouk <span id="currentDate"></span></p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
